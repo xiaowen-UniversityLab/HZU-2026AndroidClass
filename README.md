@@ -6,17 +6,19 @@
 ### 第一阶段：系统组件与权限机制（第 1-3 周）
 - 目标：掌握 Android 四大组件的高级用法及系统权限安全。
 
-  ```markdown
-  - [ ] 第 1 周：[Service 与通知系统（前台服务）](https://github.com/xiaowen-UniversityLab/HZU-2026AndroidClass/blob/main/课程安排/第一周任务.md)
-  - [ ] 第 2 周：BroadcastReceiver 与系统数据访问
-  - [ ] 第 3 周：WindowManager 与悬浮窗交互
-  ```
+- [ ] 第 1 周：[Service 与通知系统（前台服务）](https://github.com/xiaowen-UniversityLab/HZU-2026AndroidClass/blob/main/课程安排/第一周任务.md) 
+- [ ] 第 2 周：BroadcastReceiver 与系统数据访问
+- [ ] 第 3 周：WindowManager 与悬浮窗交互
+
+
 
 ### 第二阶段：硬件调用与多媒体开发（第 4-6 周）
 - 目标：深入 Android 硬件接口及影音处理流。
 
 第 4 周：CameraX 现代相机架构
+
 第 5 周：MediaPlayer 与影音播放技术
+
 第 6 周：传感器（Sensor）与分区存储（Scoped Storage）
 
 ### 第三阶段：Jetpack 架构与网络通信（第 7-9 周）
