@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 建议使用 PreviewView，它比原生的 TextureView 更易用 -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/capture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍照"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tv_low_light"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⚠️ 光线太暗"
+        android:textColor="#FF0000"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
