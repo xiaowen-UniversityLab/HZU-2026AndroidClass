@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.DownloadPicture" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 自定义主题配色 -->
+        <item name="colorPrimary">#FF2196F3</item>
+        <item name="colorPrimaryDark">#FF1976D2</item>
+        <item name="colorAccent">#FF03DAC5</item>
+    </style>
+    <style name="Theme.DownloadPicture" parent="Base.Theme.DownloadPicture" />
+</resources>
